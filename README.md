@@ -1,471 +1,422 @@
-# ⚜️ CyberMap - The PenTrix Edition
 
-> **"Navigate the complexity of cybersecurity with precision."**
+<div align="center">
 
-**Current Version:** v2.5.0 (Stable)  
-**License:** MIT License  
-**Author:** Muhammad Izaz Haider  
-**Powered By:** [The PenTrix](https://mizazhaider-ceh.github.io/The-PenTrix/)
+# 🗺️ CyberMap
 
----
+### **Navigate Your Cybersecurity Journey from Novice to Legend**
 
-## 📖 Table of Contents
+[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-orange?style=for-the-badge&logo=vercel)](https://cyber-map-six.vercel.app/)
+[![GitHub](https://img.shields.io/badge/GitHub-Source-blue?style=for-the-badge&logo=github)](https://github.com/mizazhaider-ceh/CyberMap)
+[![PWA](https://img.shields.io/badge/PWA-Enabled-success?style=for-the-badge&logo=pwa)](https://cyber-map-six.vercel.app/)
+[![The PenTrix](https://img.shields.io/badge/Powered_by-The_PenTrix-gold?style=for-the-badge)](https://cyber-map-six.vercel.app/)
 
-1.  [Project Overview](#-project-overview)
-2.  [The Philosophy](#-the-philosophy)
-3.  [Key Features](#-key-features)
-4.  [Technical Architecture](#-technical-architecture)
-    *   [Core Stack](#core-stack)
-    *   [File Structure](#file-structure)
-    *   [PWA Implementation](#pwa-implementation)
-5.  [Detailed Roadmap Guide](#-detailed-roadmap-guide)
-6.  [Installation & Setup](#-installation--setup)
-7.  [Usage Guide](#-usage-guide)
-8.  [AI Technical Review](#-ai-technical-review-honest-opinion)
-9.  [Future Roadmap (v3.0)](#-future-roadmap)
-10. [Contribution Guidelines](#-contribution-guidelines)
-11. [FAQ](#-frequently-asked-questions)
-12. [Credits & Acknowledgements](#-credits--acknowledgements)
+*"The internet is noisy. We filter the chaos into clear, linear roadmaps so you never have to guess 'what's next?'"*
+
+[**🚀 Explore Roadmaps**](https://cyber-map-six.vercel.app/) • [**📖 Documentation**](#-features) • [**🤝 Contribute**](#-contributing)
+
+</div>
 
 ---
 
-## 🌍 Project Overview
+## 🎯 The Problem
 
-**CyberMap** is an advanced, interactive roadmap viewer designed specifically for the cybersecurity domain. In an industry flooded with fragmented tutorials, expensive courses, and conflicting advice, CyberMap stands as a "Single Source of Truth" for career progression.
+Every aspiring cybersecurity professional faces the same questions:
 
-It is not merely a list of links. It is a structured, gamified, and visually immersive experience that guides a user from **zero** knowledge to **hero** status in 18+ specialized cybersecurity roles.
+❓ *"Should I become a Pentester or a SOC Analyst?"*  
+❓ *"What certifications actually matter?"*  
+❓ *"How do I go from beginner to expert?"*  
+❓ *"Which resources are worth my time and money?"*
 
-Whether you want to be a **Penetration Tester**, a **Blue Team Defender**, or an **AI Security Specialist**, CyberMap provides the exact linear path to get there, highlighting both free and premium resources along the way.
+The answer? **It depends.**
 
-### Why CyberMap Exists
-
-The cybersecurity field is notorious for its steep learning curve. Beginners face several challenges:
-
-- **Information Overload:** Thousands of YouTube tutorials, blog posts, and courses with no clear progression
-- **Tool-Focused Learning:** Many resources teach tools (Metasploit, Burp Suite) without foundational knowledge
-- **Lack of Structure:** No clear answer to "What should I learn next?"
-- **Expensive Gatekeeping:** Premium certifications can cost thousands of dollars
-
-CyberMap addresses all these pain points by providing:
-- A clear, linear learning path
-- Free and premium resources clearly marked
-- Progress tracking to maintain motivation
-- Modern, accessible interface that works offline
+But nobody tells you *what* it depends on.
 
 ---
 
-## 💡 The Philosophy
+## ✨ The Solution: CyberMap
 
-### "Structure beats Chaos"
+**CyberMap** is an interactive, offline-first Progressive Web App that provides **structured learning roadmaps** for **18+ specialized cybersecurity career paths**.
 
-The internet is noisy. A beginner searching for "how to hack" will wind up in a rabbit hole of script-kiddie tools and illegal websites. CyberMap is built on the philosophy that **foundations matter more than tools**.
+Instead of drowning in scattered tutorials, you get:
 
-**Core Principles:**
+✅ **Clear career paths** - Know exactly where you're going  
+✅ **Skill progression** - INITIATE → ADEPT → MASTER → LEGEND  
+✅ **Curated resources** - Free 🟦 and Premium 🔷 labeled transparently  
+✅ **Future-proof skills** - AI Security, Zero Trust, Cloud Native  
+✅ **Offline access** - Learn anywhere, even without internet  
 
-1.  **Linear Progression:** Learning should be a roadmap, not a graph. You must understand A before you can master B.
-2.  **Visual Feedback:** Humans are visual creatures. Seeing a progress bar fill up or a timeline animate releases dopamine, encouraging consistency.
-3.  **Resource Curation:** Less is more. We don't list *every* resource; we list the *best* ones.
-4.  **Future-Proofing:** We include emerging fields like AI Security and ICS Security as standard, not as afterthoughts.
+---
 
-### The "Master of Foundations" Approach
+## 🎬 See It In Action
 
-CyberMap emphasizes understanding over memorization:
+<div align="center">
 
-- **Networking:** Before learning Nmap, understand TCP/IP, the OSI model, and how packets flow
-- **Programming:** Before exploiting buffer overflows, learn C and memory management
-- **Web Security:** Before using SQLMap, understand how databases work and what SQL injection actually does
+### Landing Page
+*Navigate complexity with precision*
 
-This approach ensures that when tools change (and they will), your knowledge remains relevant.
+### Roadmap Gallery
+*18+ specialized career paths to choose from*
+
+### Skill Progression
+*Visual learning paths from beginner to elite*
+
+[**→ Try CyberMap Now**](https://cyber-map-six.vercel.app/)
+
+</div>
+
+---
+
+## 🛤️ Available Career Roadmaps
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+### 🔴 Offensive Security
+- **Penetration Tester**  
+  *Simulate attacks, expose vulnerabilities*
+- **Bug Bounty Hunter**  
+  *Find bugs, get paid*
+- **Red Team Operator**  
+  *Advanced adversary simulation*
+
+</td>
+<td width="33%" valign="top">
+
+### 🛡️ Defensive Security
+- **Blue Team Defender**  
+  *Detect, respond, protect*
+- **SOC Analyst**  
+  *24/7 threat monitoring*
+- **Digital Forensics**  
+  *Investigate cyber crimes*
+- **Incident Response**  
+  *Handle breaches like a pro*
+
+</td>
+<td width="33%" valign="top">
+
+### ☁️ Cloud & AppSec
+- **Cloud Security Engineer**  
+  *Secure AWS, Azure, GCP*
+- **AppSec Engineer**  
+  *Build secure software*
+- **DevSecOps**  
+  *Automate security in CI/CD*
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+### 🏗️ Architecture & GRC
+- **Security Architect**  
+  *Design enterprise security*
+- **GRC Analyst**  
+  *Governance, Risk, Compliance*
+
+</td>
+<td width="33%" valign="top">
+
+### 🤖 Emerging Domains
+- **AI Security Engineer**  
+  *Offensive & defensive AI*
+- **AI in Cybersecurity**  
+  *ML for threat detection*
+- **ICS/OT Security**  
+  *Protect critical infrastructure*
+
+</td>
+<td width="33%" valign="top">
+
+### 🎓 Fundamentals
+- **Certification Path**  
+  *Industry credentials*
+- **Cyber Fundamentals**  
+  *Networking, OS, security*
+- **Programming for Cyber**  
+  *Python, Bash, automation*
+- **Success Mindset**  
+  *Mental resilience*
+
+</td>
+</tr>
+</table>
 
 ---
 
 ## 🚀 Key Features
 
-### 1. **Interactive Roadmap Engine**
-
-At the heart of CyberMap is a custom-built rendering engine.
-
-*   **Scroll-Triggered Animations:** Using the `IntersectionObserver` API, timeline nodes fade, slide, and pulse as you scroll down the path. This creates a sense of progression and discovery.
-*   **Dynamic Timeline:** Cards alternate left-right for visual balance. The central connector line creates a clear path forward.
-*   **State Persistence:** Close the tab? No problem. Your progress is saved instantly to `localStorage`. Return weeks later and pick up exactly where you left off.
-*   **Expandable Cards:** Click any card to reveal detailed skills and curated resources. The interface stays clean until you need the details.
-
-### 2. **Progressive Web App (PWA) 📱**
-
-CyberMap is a fully compliant PWA, meeting all modern web standards.
-
-*   **Installable:** Works as a native desktop or mobile app. Add to home screen on iOS, Android, Windows, macOS, or Linux.
-*   **Offline-First:** A Service Worker (`sw.js`) intercepts network requests. If you've visited the site once, you can access your roadmaps on a plane, in a secure bunker, or anywhere without Wi-Fi.
-*   **Fast Loading:** Stale-While-Revalidate caching strategy means instant loads from cache while updating in the background.
-*   **Adaptive Iconography:** Custom generated golden-shield icons look great on iOS and Android home screens.
-*   **App-Like Experience:** Standalone display mode removes browser UI for immersive learning.
-
-### 3. **Curated Career Paths**
-
-We cover the full spectrum of the cybersecurity industry:
-
-**Offensive Security:**
-- Penetration Tester
-- Bug Bounty Hunter
-- Red Team Operator
-
-**Defensive Security:**
-- Blue Team Analyst
-- SOC (Security Operations Center) Analyst
-- Digital Forensics Investigator
-
-**Engineering & Architecture:**
-- Application Security Engineer
-- Cloud Security Architect
-- Security Architect
-
-**Specialized Domains:**
-- AI Security Specialist
-- ICS/SCADA Security
-- GRC (Governance, Risk, Compliance)
-
-**Foundational Skills:**
-- Cyber Fundamentals
-- Programming (Python, Go, C)
-- Soft Skills & Communication
-- Getting Hired
-- Success Mindset
-
-### 4. **Modern UI/UX Design**
-
-*   **Glassmorphism:** Heavy use of backdrop-blur and semi-transparent backgrounds for a futuristic feel.
-*   **Dark Mode Native:** Designed for hackers, by hackers. Easier on the eyes during late-night study sessions.
-*   **Responsive Layouts:** Utilizes CSS Grids and Flexbox to morph seamlessly from a 3-column desktop layout to a single-column mobile feed.
-*   **Amber & Slate Palette:** Professional color scheme that conveys both sophistication and technical expertise.
-*   **Smooth Animations:** 60fps transitions powered by CSS transforms and opacity changes.
+| Feature | Description |
+|---------|-------------|
+| 🗺️ **18+ Career Paths** | Comprehensive roadmaps covering offensive, defensive, governance, and emerging domains |
+| 📊 **4-Tier Progression** | INITIATE → ADEPT → MASTER → LEGEND with clear learning milestones |
+| 🎯 **Curated Resources** | Handpicked courses, certifications, tools, and labs |
+| 🟦🔷 **Free vs Premium** | Transparent labeling so you know what's free and what's paid |
+| 📱 **Progressive Web App** | Install on any device, works offline after first load |
+| ⚡ **Lightning Fast** | Service worker caching for instant load times |
+| 🌙 **Dark Mode Native** | Easy on the eyes during late-night learning sessions |
+| 📲 **Mobile Optimized** | Seamless experience on desktop, tablet, and mobile |
 
 ---
 
-## 🏗 Technical Architecture
+## 💻 Tech Stack
 
-CyberMap is built with a **"Vanilla Plus"** approach. We rely on the browser's native power rather than heavy frameworks.
+**Built with simplicity and performance in mind:**
 
-### Core Stack
+```javascript
 
-*   **HTML5:** Semantic structure (`<header>`, `<main>`, `<article>`, `<section>`).
-*   **Vanilla JavaScript (ES6+):** 
-    *   No React, Vue, or Angular.
-    *   Direct DOM manipulation for maximum performance.
-    *   Component-like functions (`renderRoadmap()`, `createCard()`) for code reusability.
-    *   Modern APIs: IntersectionObserver, LocalStorage, Service Worker.
-*   **Tailwind CSS (v4):**
-    *   Utility-first styling allows for rapid iteration.
-    *   Custom configuration for the specific "Amber & Slate" color palette.
-    *   Complex animations handled via Tailwind classes (`animate-pulse`, `transition-all`).
-*   **Local Storage API:** Chosen over IndexedDB for simplicity and speed (JSON serialization).
-
-### File Structure
-
-The project follows a clean Separation of Concerns (SoC):
+Frontend:        Vanilla HTML5, CSS3, JavaScript (ES6+)
+Styling:         Custom CSS with Flexbox \& CSS Grid
+PWA:             Service Worker + Web App Manifest
+Caching:         Cache-first strategy with network fallback
+Icons:           Custom SVG illustrations
+Deployment:      Vercel (primary) + GitHub Pages (backup)
+Version Control: Git + GitHub
 
 ```
-Cyber-Map/
-├── index.html              # The skeleton. Semantic HTML structure.
-├── manifest.json           # PWA Metadata (Name, Icons, Theme Color).
-├── sw.js                   # The Brain. Service Worker for caching.
-├── README.md               # You are here.
-├── assets/
-│   ├── css/
-│   │   └── style.css       # Custom scrollbars, animations, and non-Tailwind overrides.
-│   ├── js/
-│   │   └── script.js       # The Engine. 460+ lines of logic, data, and rendering code.
-│   └── images/
-│       ├── pwa-icon-192.png # Generated app icon.
-│       ├── pwa-icon-512.png # High-res app icon.
-│       ├── pentester.png    # Role-specific imagery.
-│       └── ...              # 18 role images total
+
+**Why Vanilla JS?**  
+- ⚡ Zero framework overhead = faster load times
+- 🔒 No dependency vulnerabilities
+- 📦 Smaller bundle size
+- 🛠️ Future-proof (will work 10 years from now)
+
+---
+
+## 🏗️ Project Structure
+
 ```
 
-### PWA Implementation
+CyberMap/
+├── 📄 index.html              \# Main application entry
+├── 🎨 style.css               \# Global styles \& theme
+├── ⚙️ script.js               \# Routing, roadmaps, interactions
+├── 🔧 sw.js                   \# Service Worker (offline magic)
+├── 📱 manifest.json           \# PWA configuration
+├── 📁 assets/                 \# Images, icons, visuals
+└── 📖 README.md               \# You are here!
 
-The `sw.js` file implements a **Stale-While-Revalidate** strategy:
-
-1.  **Fetch:** The app requests a resource (e.g., `style.css`).
-2.  **Cache Check:** Service Worker checks if it's already in the 'cybermap-v1' cache.
-3.  **Return Cache:** If found, return immediately. Speed = instant.
-4.  **Network Revalidate:** In the background, fetch the *latest* version from the server.
-5.  **Update Cache:** If the server version is newer, update the cache for the *next* visit.
-
-This strategy provides the best of both worlds: instant loading and always-fresh content.
-
----
-
-## 🗺 Detailed Roadmap Guide
-
-Each roadmap is broken down into specific stages. Here is a sample of what the **Penetration Tester** path looks like internally:
-
-### Stage 1: The Foundation (Novice)
-
-**Computer Basics:**
-- How CPUs execute instructions
-- Memory hierarchy (RAM, Cache, Disk)
-- Binary, Hexadecimal, and ASCII
-
-**Networking:**
-- OSI Model (all 7 layers)
-- TCP/IP Protocol Suite
-- Subnetting and CIDR notation
-- DNS, DHCP, ARP
-
-**Linux:**
-- Command line navigation
-- File permissions (chmod/chown)
-- Bash scripting basics
-- Package management (apt, yum)
-
-### Stage 2: The Tools (Apprentice)
-
-**Reconnaissance:**
-- Passive OSINT (Google Dorking, Shodan)
-- Active scanning (Nmap, Masscan)
-- Network analysis (Wireshark, tcpdump)
-
-**Web Hacking:**
-- OWASP Top 10 vulnerabilities
-- Burp Suite Professional workflow
-- SQL Injection (manual and automated)
-- XSS (Reflected, Stored, DOM-based)
-
-**Exploitation:**
-- Metasploit Framework
-- Reverse shells and bind shells
-- Buffer overflows (basic stack-based)
-
-### Stage 3: The Professional (Adept)
-
-**Privilege Escalation:**
-- Linux PrivEsc techniques
-- Windows Token Manipulation
-- Kernel exploits
-
-**Active Directory:**
-- Kerberos authentication
-- Bloodhound for AD mapping
-- Golden Ticket attacks
-- Pass-the-Hash
-
-**Report Writing:**
-- Executive summaries
-- Technical findings documentation
-- Risk scoring (CVSS)
-- Remediation recommendations
+```
 
 ---
 
-## 💿 Installation & Setup
+## 🎮 Getting Started
 
-CyberMap is a static web application. It requires no backend database or Node.js server to run in production.
+### Option 1: Use It Now (Recommended)
 
-### Method 1: The "User" Way
+Just visit: **[https://cyber-map-six.vercel.app/](https://cyber-map-six.vercel.app/)**
 
-1.  Navigate to the hosted URL (e.g., GitHub Pages).
-2.  Click the "Share" or "Menu" button in your browser.
-3.  Select **"Add to Home Screen"**.
-4.  Launch the app from your drawer/desktop.
-
-### Method 2: The "Developer" Way (Git)
-
-If you want to modify the code or contribute:
-
-1.  **Clone the Repository:**
-    ```bash
-    git clone https://github.com/mizazhaider-ceh/Cyber-Map.git
-    cd Cyber-Map
-    ```
-
-2.  **Open in Editor:**
-    ```bash
-    code .
-    ```
-
-3.  **Launch Local Server:**
-    *   You cannot simply drag `index.html` to Chrome because Service Workers require `http://` or `https://` protocols (not `file://`).
-    *   Use VS Code "Live Server" extension.
-    *   OR run Python simple server:
-        ```bash
-        python -m http.server 8000
-        ```
-
-4.  **Verify:**
-    *   Open `http://localhost:8000`.
-    *   Open DevTools (F12) > Application > Service Workers. Ensure Status is "Activated".
+That's it. No installation, no setup.
 
 ---
 
-## 🎮 Usage Guide
+### Option 2: Install as Native App
 
-### Getting Started
+**On Mobile (iOS/Android):**
+1. Visit [CyberMap](https://cyber-map-six.vercel.app/)
+2. Tap browser menu
+3. Select **"Add to Home Screen"**
+4. Open from your home screen like any other app
 
-1.  **Select a Role:**
-    *   On the dashboard, you will see a gallery of cards (Penetration Tester, SOC Analyst, etc.).
-    *   Hover over a card to see a brief description.
-    *   Click "View Roadmap" to enter the timeline view.
-
-2.  **Navigate the Timeline:**
-    *   Scroll down to see the learning path.
-    *   Items on the left and right will animate in as you scroll.
-    *   Click the **checkbox** on any card to mark it as "Learned".
-    *   The card will glow Amber to indicate mastery.
-
-3.  **Explore Resources:**
-    *   Click on the card body to expand it.
-    *   You will see a list of "Skills to Learn" and "Recommended Resources".
-    *   **FREE** resources are marked in Green (📖).
-    *   **PREMIUM** resources are marked in Amber (💎).
-
-### Tips for Maximum Effectiveness
-
-- **Don't Skip Stages:** The roadmaps are designed to be followed linearly
-- **Mark Progress Honestly:** Only check off topics you truly understand
-- **Revisit Fundamentals:** If you struggle with advanced topics, go back to basics
-- **Use Both Free and Premium:** Free resources are great, but certifications add credibility
+**On Desktop (Chrome/Edge):**
+1. Visit [CyberMap](https://cyber-map-six.vercel.app/)
+2. Look for install icon in address bar
+3. Click **"Install"**
+4. Launch from your apps menu
 
 ---
 
-## 🤖 AI Technical Review (Honest Opinion)
+---
 
-*As an advanced AI Agent specializing in full-stack architecture, I have analyzed the CyberMap codebase comprehensively. Here is my impartial review:*
+## 🎓 Philosophy: Why CyberMap Exists
 
-### ✅ The Good
+### The PenTrix Mission
 
-1.  **Performance is King:** By avoiding React/Angular for a project that is essentially a document viewer, the author saved ~2MB of JavaScript bundle size. The site reaches Time-to-Interactive (TTI) in under 400ms on 4G networks.
+> *"Security is not a product, but a process. Trust the journey, master the basics."*
 
-2.  **Data Structure:** The decision to keep `rolesData` as a constant object in `script.js` makes the app incredibly easy to fork. A user can simply edit one JSON-like structure to create a completely different roadmap (e.g., for Cooking or Mechanic work) without touching HTML.
+**CyberMap** is part of **The PenTrix** - a platform dedicated to sharing practical cybersecurity insights with aspiring hackers, defenders, and security engineers.
 
-3.  **Animation Logic:** The `IntersectionObserver` implementation is clean. It disconnects the observer (`observer.unobserve`) after the animation triggers, which is a mature optimization that prevents memory leaks on long pages.
+### Our Principles
 
-4.  **Accessibility (a11y):** The contrast ratios between the Slate-950 background and Amber-400 text generally meet WCAG AA standards. Semantic HTML ensures screen reader compatibility.
-
-5.  **PWA Best Practices:** The Service Worker implementation follows Google's recommended patterns. The manifest.json includes all required fields.
-
-### ⚠️ The Bad (Areas for Improvement)
-
-1.  **Scalability:** While `script.js` works fine now, it is currently 460+ lines. As more roadmaps are added, this file will become unwieldy. 
-    *   *Solution:* Split the data into `assets/data/roles.json` and fetch it via `fetch()`.
-
-2.  **State Management:** `localStorage` is simple but limited to the specific device. If a user switches from Phone to Laptop, their progress is lost.
-    *   *Solution:* Integrate a lightweight backend (Firebase or Supabase) for cloud sync.
-
-3.  **SEO:** Being a Single Page Application (SPA) driven by JavaScript injection, initial HTML is mostly empty. Search engines might struggle to index individual roadmaps.
-    *   *Solution:* Server-Side Rendering (SSR) or pre-rendering HTML files for each role.
-
-4.  **Testing:** No automated tests (unit or E2E) are present. This makes refactoring risky.
-    *   *Solution:* Add Jest for unit tests and Playwright for E2E tests.
-
-### 🏁 Verdict
-
-**9/10.** For its intended purpose—a fast, reliable, and accessible educational tool—it is built excellently. It avoids over-engineering while delivering a "premium" feel. The choice to use vanilla JavaScript is justified and results in superior performance.
+1. **🎯 Structured > Random** - Linear roadmaps beat scattered tutorials
+2. **🔮 Future-proof > Trendy** - Principles over tools, foundations over fads
+3. **🔓 Open Knowledge** - Elite resources shouldn't be gatekept
+4. **💪 Continuous Growth** - From novice to master, one skill at a time
 
 ---
 
-## 🔮 Future Roadmap (v3.0)
+## 👤 About the Founder
 
-We are constantly improving CyberMap. Here is what is coming:
+<div align="center">
 
-### Planned Features
+### Muhammad Izaz Haider
+**Founder & Architect | The PenTrix**
 
-*   **[ ] Dark/Light Mode Toggle:** For those who prefer light themes (though we judge you 😄).
-*   **[ ] PDF Export:** Generate a certificate or a printable checklist of your progress.
-*   **[ ] API Integration:** Fetch live job market data for each role (e.g., "300 active listings for SOC Analyst").
-*   **[ ] Gamification v2:** Add "Levels" and "Badges" logic. E.g., Completing 50% of Pentester roadmap grants the "Script Kiddie" badge.
-*   **[ ] Community Comments:** A Disqus or GitHub-based comment section under each resource for user reviews.
-*   **[ ] Cloud Sync:** Optional account system to sync progress across devices.
-*   **[ ] Custom Roadmaps:** Allow users to create and share their own learning paths.
-*   **[ ] Video Integration:** Embed YouTube tutorials directly in the timeline.
+*18-year-old Junior DevSecOps & AI Security Engineer*  
+*Howest University Student | Damno Solutions*
 
-### Long-Term Vision
+</div>
 
-- **Multi-Language Support:** Translate roadmaps into Spanish, Arabic, Hindi, etc.
-- **Mobile Apps:** Native iOS and Android apps built with React Native or Flutter
-- **AI Tutor:** ChatGPT-style assistant that answers questions about each topic
-- **Job Board Integration:** Direct links to relevant job postings
+**The Journey:**  
+From the rustic streets of a Pakistani village 🇵🇰 to the high-tech cybersecurity hubs of Belgium 🇧🇪. My path was forged in 9th grade with a single, dangerous curiosity:
 
----
+> *"How do systems break?"*
 
-## 🤝 Contribution Guidelines
+Today, I answer that question by building intelligent, unbreakable defenses.
 
-We welcome pull requests from the community!
+**Current Mission:**  
+Pioneering the fusion of Generative AI with cybersecurity to engineer adaptive defense systems that evolve faster than threats.
 
-### How to Contribute
+**Core Philosophy:**  
+*"If I fail, the failure is mine. If I succeed, the credit belongs to Allah alone."*
 
-1.  **Fork** the repo on GitHub.
-2.  **Clone** your fork locally.
-3.  **Branch** features: `git checkout -b feature/new-roadmap-cloud`.
-4.  **Commit** changes: `git commit -m "Added Cloud Security Roadmap"`.
-5.  **Push** to your fork: `git push origin feature/new-roadmap-cloud`.
-6.  **Pull Request:** Open a PR on the main repo and tag @mizazhaider-ceh.
-
-### Contribution Rules
-
-*   **Quality over Quantity:** Don't simply add tools. Add *concepts* and *understanding*.
-*   **Image Optimization:** Ensure all images are compressed (WebP/PNG) and under 100KB.
-*   **Follow the Style:** Use the existing color scheme (Slate/Amber) and maintain code formatting.
-*   **Test Locally:** Verify your changes work before submitting a PR.
-*   **Document Changes:** Update README if you add new features.
-
-### What We're Looking For
-
-- New roadmap paths (e.g., Blockchain Security, IoT Security)
-- Better resource recommendations
-- Bug fixes and performance improvements
-- Accessibility enhancements
-- Translation contributions
+**Connect:**  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/muhammad-izaz-haider)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github)](https://github.com/mizazhaider-ceh)
+[![Email](https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail)](mailto:muhammad.izahaider@damno-solutions.be)
 
 ---
 
-## ❓ Frequently Asked Questions
+## 🤝 Contributing
 
-**Q: Is this really free?**  
-A: Yes. CyberMap is open-source under the MIT License. The resources listed inside might be paid (certifications), but the map itself is free forever.
+CyberMap is a **living project**. The cybersecurity landscape evolves, and so should our roadmaps.
 
-**Q: Can I use this for my university project?**  
-A: Absolutely! Just credit "The PenTrix" and Muhammad Izaz Haider in your documentation.
+### How You Can Contribute
 
-**Q: My progress disappeared!**  
-A: Did you clear your browser cache/cookies? Since we use LocalStorage, clearing your browser data will wipe your progress. We are working on a cloud sync feature for v3.0.
+- 🗺️ **Add new roadmaps** - Suggest career paths we're missing
+- 🔗 **Recommend resources** - Share quality courses, tools, or certifications
+- 🐛 **Report bugs** - Help us improve the experience
+- 🌍 **Translate** - Make CyberMap accessible in your language
+- ⭐ **Star the repo** - Show your support!
 
-**Q: The offline mode isn't working.**  
-A: You must visit the site at least once with the internet connected so the Service Worker can cache the files. After that, it works completely offline.
+### Contribution Process
 
-**Q: Can I suggest a new roadmap?**  
-A: Yes! Open an issue on GitHub or submit a pull request with your proposed roadmap structure.
+1. **Fork** the repository
+2. **Create a branch**: `git checkout -b feature/new-roadmap`
+3. **Make your changes** to `script.js` (roadmap data structure)
+4. **Test locally** to ensure everything works
+5. **Submit a Pull Request** with a clear description
 
-**Q: Why vanilla JavaScript instead of React?**  
-A: For this use case, React would add unnecessary complexity and bundle size. Vanilla JS provides better performance and faster load times.
-
-**Q: How often is the content updated?**  
-A: We review and update roadmaps quarterly to ensure they reflect current industry standards and emerging technologies.
-
----
-
-## ❤️ Credits & Acknowledgements
-
-**Lead Developer:** Muhammad Izaz Haider  
-**Design Inspiration:** roadmap.sh, HackTheBox Academy  
-**Icons:** Custom generated + Emoji  
-**Fonts:** Inter (Google Fonts), Cinzel (Google Fonts)  
-**Special Thanks:** The cybersecurity community for feedback and suggestions
-
-### Technologies Used
-
-- HTML5, CSS3, JavaScript ES6+
-- Tailwind CSS v4
-- Service Worker API
-- IntersectionObserver API
-- LocalStorage API
-- Web App Manifest
+We review PRs within 48 hours!
 
 ---
 
-*"Knowledge is the only defense. Trust the process, master the fundamentals, and never stop learning."*
+## 🗓️ Roadmap (Development)
 
-**© 2025 The PenTrix. All Rights Reserved.**
+### ✅ v1.0 - Foundation (Current)
+- [x] 18+ career path roadmaps
+- [x] Skill progression system (4 tiers)
+- [x] Free vs Premium resource labeling
+- [x] PWA with offline support
+- [x] Mobile responsive design
+- [x] Founder profile integration
+
+### 🚧 v2.0 - Interactivity (Q1 2026)
+- [ ] User progress tracking (localStorage)
+- [ ] Bookmark/favorite resources
+- [ ] Search functionality across all roadmaps
+- [ ] Dark/Light theme toggle
+- [ ] Community discussion forum
+
+### 🔮 v3.0 - Intelligence (Q2 2026)
+- [ ] AI-powered personalized learning paths
+- [ ] Skill gap analysis
+- [ ] Mentor matching system
+- [ ] Real-world project integration
+- [ ] Certification exam tracker
+
+### 🌟 v4.0 - Ecosystem (Future)
+- [ ] Job board integration
+- [ ] Interview preparation modules
+- [ ] Gamification (badges, achievements)
+- [ ] Multi-language support (Urdu, Arabic, French)
+- [ ] Export roadmaps as PDF
 
 ---
 
-**Star this repo if you found it helpful! ⭐**
+## 📊 Project Stats
+
+<div align="center">
+
+![GitHub stars](https://img.shields.io/github/stars/mizazhaider-ceh/CyberMap?style=social)
+![GitHub forks](https://img.shields.io/github/forks/mizazhaider-ceh/CyberMap?style=social)
+![GitHub watchers](https://img.shields.io/github/watchers/mizazhaider-ceh/CyberMap?style=social)
+
+[![Issues](https://img.shields.io/github/issues/mizazhaider-ceh/CyberMap)](https://github.com/mizazhaider-ceh/CyberMap/issues)
+[![Pull Requests](https://img.shields.io/github/issues-pr/mizazhaider-ceh/CyberMap)](https://github.com/mizazhaider-ceh/CyberMap/pulls)
+[![License](https://img.shields.io/github/license/mizazhaider-ceh/CyberMap)](LICENSE)
+
+</div>
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+
+**Open Source. Knowledge belongs to the ambitious.**
+
+---
+
+## 🙏 Acknowledgments
+
+- **The Cybersecurity Community** - for endless knowledge sharing
+- **Howest University** - for world-class security education
+- **Damno Solutions** - for real-world engineering experience
+- **Allah (SWT)** - for guidance and opportunity
+
+---
+
+## 💬 Support & Feedback
+
+If CyberMap helped you on your cybersecurity journey:
+
+- ⭐ **Star this repository**
+- 🔗 **Share with fellow security enthusiasts**
+- 💬 **Open an issue** for suggestions or bugs
+- 🤝 **Connect on LinkedIn** for mentorship
+
+---
+
+## 🔗 Related Projects
+
+- 🧠 **[Archetypes](https://github.com/mizazhaider-ceh/Archetypes)** - Strategic wisdom archive for defenders
+- 🛡️ **[The PenTrix](https://github.com/mizazhaider-ceh)** - More security tools and resources
+
+---
+
+<div align="center">
+
+### 🌟 Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=mizazhaider-ceh/CyberMap&type=Date)](https://star-history.com/#mizazhaider-ceh/CyberMap&Date)
+
+</div>
+
+---
+
+<div align="center">
+
+**Built with ☕, curiosity, and late-night coding sessions.**
+
+*"Cybersecurity is a journey of endless curiosity. Don't rush to be a 'hacker'—strive to be a Master of Foundations. The tools will change, but the principles remain. Trust the process, and never stop learning."*
+
+**— Muhammad Izaz Haider**
+
+---
+
+**Alhamdulillah | In Sha Allah | Bismillah**
+
+---
+
+<sub>© 2025 The PenTrix. All rights reserved.</sub>
+
+[![Made with ❤️ in Belgium](https://img.shields.io/badge/Made_with_❤️_in-Belgium-gold?style=for-the-badge)](https://cyber-map-six.vercel.app/)
+
+</div>
+
+
