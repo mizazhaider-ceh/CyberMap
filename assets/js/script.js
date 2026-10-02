@@ -68,6 +68,21 @@ function init() {
     switchView('dashboard');
 }
 
+// Update Nav Buttons - shared by switchView and switchRoleAndNavigate
+function updateNav(viewId) {
+    const navIds = ['dashboard', 'roadmaps', 'about', 'discuss'];
+    navIds.forEach(id => {
+        const btn = document.getElementById(`nav-${id}`);
+        if (id === viewId) {
+            btn.classList.remove('text-slate-400', 'hover:text-amber-100', 'hover:bg-slate-800/50', 'border-transparent');
+            btn.classList.add('text-amber-400', 'bg-slate-800', 'shadow-[0_0_10px_rgba(0,0,0,0.5)]', 'border-amber-500/20');
+        } else {
+            btn.classList.add('text-slate-400', 'hover:text-amber-100', 'hover:bg-slate-800/50', 'border-transparent');
+            btn.classList.remove('text-amber-400', 'bg-slate-800', 'shadow-[0_0_10px_rgba(0,0,0,0.5)]', 'border-amber-500/20');
+        }
+    });
+}
+
 // View Switcher
 function switchView(viewId) {
     currentView = viewId;
@@ -87,17 +102,7 @@ function switchView(viewId) {
     }
 
     // Update Nav Buttons
-    const navIds = ['dashboard', 'roadmaps', 'about', 'discuss'];
-    navIds.forEach(id => {
-        const btn = document.getElementById(`nav-${id}`);
-        if (id === viewId) {
-            btn.classList.remove('text-slate-400', 'hover:text-amber-100', 'hover:bg-slate-800/50', 'border-transparent');
-            btn.classList.add('text-amber-400', 'bg-slate-800', 'shadow-[0_0_10px_rgba(0,0,0,0.5)]', 'border-amber-500/20');
-        } else {
-            btn.classList.add('text-slate-400', 'hover:text-amber-100', 'hover:bg-slate-800/50', 'border-transparent');
-            btn.classList.remove('text-amber-400', 'bg-slate-800', 'shadow-[0_0_10px_rgba(0,0,0,0.5)]', 'border-amber-500/20');
-        }
-    });
+    updateNav(viewId);
 
     if (viewId === 'roadmaps') {
         showGallery(); // Always start with gallery
@@ -118,9 +123,8 @@ function switchRoleAndNavigate(roleKey) {
     roadmapsView.classList.remove('hidden');
     roadmapsView.classList.add('animate-fade-in');
 
-    // Update Nav simple visual fix
-    document.getElementById('nav-dashboard').classList.remove('text-amber-400');
-    document.getElementById('nav-roadmaps').classList.add('text-amber-400');
+    // Update Nav
+    updateNav('roadmaps');
 
     showRole(roleKey);
     window.scrollTo({ top: 0, behavior: 'smooth' });

@@ -54,11 +54,12 @@ Instead of drowning in scattered tutorials, you get:
 ### Landing Page
 *Navigate complexity with precision*
 
-### Roadmap Gallery
-*18+ specialized career paths to choose from*
+![CyberMap dashboard](screenshots/dashboard.png)
 
-### Skill Progression
-*Visual learning paths from beginner to elite*
+### Roadmap Detail
+*Visual learning paths from Initiate to Legend, with checkable progress*
+
+![Penetration Tester roadmap](screenshots/roadmap.png)
 
 [**→ Try CyberMap Now**](https://cyber-map-six.vercel.app/)
 
@@ -193,7 +194,10 @@ Version Control: Git + GitHub
 
 CyberMap/
 ├── 📄 index.html              \# Main application entry
-├── 🎨 style.css               \# Global styles \& theme
+├── 🎨 assets/css/style.css    \# Global styles & theme
+├── 🎨 assets/css/tailwind.css  \# Pre-compiled Tailwind (offline-first, no CDN)
+│                                 Regenerate: npx @tailwindcss/cli -i .tw-input.css -o assets/css/tailwind.css
+│                                 (.tw-input.css contains: @import "tailwindcss";)
 ├── ⚙️ script.js               \# Routing, roadmaps, interactions
 ├── 🔧 sw.js                   \# Service Worker (offline magic)
 ├── 📱 manifest.json           \# PWA configuration

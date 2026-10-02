@@ -5,7 +5,7 @@ const ASSETS_TO_CACHE = [
     './assets/css/style.css',
     './assets/js/script.js',
     './manifest.json',
-    'https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4',
+    './assets/css/tailwind.css',
     'https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Inter:wght@300;400;500;600;700&display=swap'
 ];
 
